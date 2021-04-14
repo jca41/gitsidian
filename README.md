@@ -1,7 +1,10 @@
 # Gitsidian theme
 A basic theme for [Obsidian](https://obsidian.md) that **only changes your preview mode** to look more like GitHub markdown styles--maybe more in the future.
+Dark and Light themes available.
 
-![showcase](showcase.png)
+![light theme](light-theme.png)
+
+![dark theme](dark-theme.png)
 
 ## Fair warning:
 - I am not death_au
