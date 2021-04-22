@@ -3,6 +3,7 @@
   --color-bg-secondary: #fafbfc;
   --color-bg-tertiary: #f6f8fa;
   --color-bg-info: #f1f8ff;
+  --color-markdown-code-bg: rgba(27, 31, 35, 0.05);
 
   --color-text-primary: #24292e;
   --color-timeline-text: #444d56;
@@ -22,6 +23,7 @@
   --color-bg-secondary: #0d1117;
   --color-bg-tertiary: #161b22;
   --color-bg-info: rgba(56, 139, 253, 0.1);
+  --color-markdown-code-bg: rgba(240,246,252,0.15);
 
   --color-text-primary: #c9d1d9;
   --color-timeline-text: #b1bac4;
@@ -83,19 +85,6 @@ pre[class*="language-"],
   font-family: monospace, monospace;
   font-size: 1em;
   color: var(--color-text-primary);
-}
-
-.markdown-preview-view p code {
-  display: inline-block;
-  padding: 3px 5px;
-  font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-  line-height: 10px;
-  color: var(--color-timeline-text);
-  vertical-align: middle;
-  background-color: var(--color-bg-secondary);
-  border: 1px solid var(--color-border-tertiary);
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 var(--color-border-tertiary);
 }
 
 .markdown-preview-view hr {
@@ -493,7 +482,7 @@ pre[class*="language-"],
   padding: 0.2em 0.4em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(27, 31, 35, 0.05);
+  background-color: var(--color-markdown-code-bg);
   border-radius: 3px;
 }
 
